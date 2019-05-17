@@ -1,0 +1,48 @@
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 1000px) {
+
+header {
+    margin: 20px;
+    
+}
+
+.navbar {
+    position: fixed;
+}
+
+div#nav-tab {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.ryan {
+    font-size: 24px;
+    color: #495057;
+    border-bottom: #DDE2E5 solid 2px;
+}
+
+.ryan-header-break {
+    height: 50px;
+}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+
+
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+
+
+}
+
