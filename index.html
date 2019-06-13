@@ -6,25 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ryan Gelow's Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="mb-5">
         <!-- Just an image -->
         <nav class="navbar navbar-white bg-white">
-            <a class="navbar-brand nav-item nav-link active mr-0 px-1 py-0" href="./index.html">
-                <img src="./assets/images/bricks.png" height="42" class="d-inline-block" alt="Ryan Gelow"
-                    aria-controls="nav-home" aria-selected="true">
-                Ryan Gelow</a>
+            <a class="navbar-brand nav-item nav-link active mr-0 px-1 py-0" href="./index.html"><img src="./assets/images/bricks.png" height="42" class="d-inline-block" alt="Ryan Gelow" aria-controls="nav-home" aria-selected="true">Ryan Gelow</a>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
-                    aria-controls="nav-profile" aria-selected="false">Profile</a>
-                <a class="nav-item nav-link" id="nav-work-tab" data-toggle="tab" href="#nav-work" role="tab"
-                    aria-controls="nav-work" aria-selected="false">Work</a>
-                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
-                    aria-controls="nav-contact" aria-selected="false">Contact</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+                <a class="nav-item nav-link" id="nav-work-tab" data-toggle="tab" href="#nav-work" role="tab" aria-controls="nav-work" aria-selected="false">Work</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
             </div>
         </nav>
     </header>
@@ -39,13 +32,11 @@
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 
                 <div class="jumbotron">
-                    <h1 class="display-4">Hello, world!</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                        attention to featured content or information.</p>
+                    <h1 class="display-4">Welcome to my portfolio!</h1>
+                    <p class="lead">I'm so happy to have you visiting. Feel free to explore my work and I hope you enjoy it!</p>
                     <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger
-                        container.</p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    <p>Please reach out with any questions or collaboration opportunities.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Click this button!</a>
                 </div>
 
             </div>
@@ -93,13 +84,13 @@
                     <div id="carouselExampleControls" class="carousel slide mb-2" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="http://lorempixel.com/640/480/" class="d-block w-100" alt="Stock Photo">
+                                <img src="./assets/images/DrinkMoodDrinkReco.jpg" class="d-block w-100" alt="Stock Photo">
                             </div>
                             <div class="carousel-item">
-                                <img src="http://lorempixel.com/640/480/" class="d-block w-100" alt="Stock Photo">
+                                <img src="./assets/images/TimeTriviaQ1.png" class="d-block w-100" alt="Stock Photo">
                             </div>
                             <div class="carousel-item">
-                                <img src="http://lorempixel.com/640/480/" class="d-block w-100" alt="Stock Photo">
+                                <img src="./assets/images/BattleGameMidBattle.png" class="d-block w-100" alt="Stock Photo">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -116,18 +107,39 @@
                     
                     <div class="row">
                         <div class="col-sm-12 col-md-4">
-                            <div class="p-3 mb-2 bg-secondary text-white py-4 text-center text-decoration-none">
-                                <a href="#" class="text-light">Example 1</a>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./assets/images/battleicon.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Battle Game</h5>      
+                                    <div class="d-flex justify-content-around">
+                                        <a href="./portfolio.html" class="btn btn-info battle-portfolio">Explore</a>
+                                        <a href="https://ryangelow.github.io/Battle-Game/" class="btn btn-success">Play</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4">
-                            <div class="p-3 mb-2 bg-info text-white py-4 text-center text-decoration-none">
-                                <a href="#" class="text-light">Example 2</a>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./assets/images/warriorspast.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Warriors Timed Trivia</h5>      
+                                    <div class="d-flex justify-content-around">
+                                        <a href="./portfolio.html" class="btn btn-info timed-trivia-portfolio">Explore</a>
+                                       <a href="https://ryangelow.github.io/Trivia-Game/" class="btn btn-success">Play</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4">
-                            <div class="p-3 mb-2 bg-secondary text-white py-4 text-center text-decoration-none">
-                                <a href="#" class="text-light">Example 3</a>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="https://media.giphy.com/media/4xGX7N3tkE35u/giphy.gif" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">A Drink For Your Mood</h5>      
+                                    <div class="d-flex justify-content-around">
+                                        <a href="./portfolio.html" class="btn btn-info mood-drink-portfolio">Explore</a>
+                                        <a href="https://ryangelow.github.io/Drink-For-Your-Mood/" class="btn btn-success d-flex">Play</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -140,7 +152,7 @@
                     </div>
                     <div class="container my-4 mx-auto px-auto">
                         <div class="row-sm-12">
-                            <img src="http://lorempixel.com/400/300/">
+                            <!-- <img src="http://lorempixel.com/400/300/"> -->
                         </div>
                     </div>
                 </div>
@@ -185,15 +197,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/js/app.js"></script>
 </body>
 
 </html>
