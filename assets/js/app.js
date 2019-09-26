@@ -67,3 +67,7 @@ $(document).ready(function() {
     localStorage.setItem("project", project);
 })
 
+$('.reveal-button').click(function() {
+    $('.reveal').toggleClass('d-none');
+    $('.reveal').toggleClass('d-flex');
+})
